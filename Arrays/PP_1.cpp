@@ -1,4 +1,4 @@
-// Practice Problem 1
+// * Practice Problem 1
 // ? Reverse an Array: Write a C++ function to reverse the elements of an array. Try to do it in-place.
 
 #include<iostream>
