@@ -15,7 +15,7 @@ int main()
     // * numberofThings -> for returning the answer
     // * currentTime -> to add the time of each taks you are doing and check against T
 
-    cout<<"Enter Total Taks and Total Time Limit : \n";
+    cout<<"Enter Total Tasks and Total Time Limit : \n";
     cin>> N >> T;
     
     cout<<"Enter the time of each Task one by one : \n";

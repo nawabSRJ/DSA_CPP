@@ -11,22 +11,12 @@ void printArray(int a[] , int size)
         cout <<a[i] <<" ";
     }
 }
-// void revArray(int arr[] , int size)
-// {
-//     int temp;
-//     for(int i = 0;i<size;i++)
-//     {
-//         temp = arr[i];
-//         arr[i] = arr[size-1-i];
-//         arr[size-i] = temp;
-//     }
-// }
 
 void revArray(int arr[],int size)
 {
     int start = 0;
     int end = size - 1;
-    while(start < end)
+    while(start <= end)
     {
         swap(arr[start] , arr[end]);
         start++;
