@@ -5,16 +5,16 @@
 #include<vector>
 using namespace std;
 
-void ProductArr(int arr[] , int size)
+void ProductArr(int nums[] , int size)
 {
     
 }
 int main()
 {
-    int arr[] = {2,12,5,7,10};
-    int N = sizeof(arr) / sizeof(arr[0]);
+    int nums[] = {1,2,3,4};     // -> {24,12,8,6}
+    int N = sizeof(nums) / sizeof(nums[0]);
   
-    ProductArr(arr , N);
+    ProductArr(nums , N);
     
     return 0;
 }
