@@ -8,7 +8,7 @@ int main()
     string s ,ans = "";
     cout << "Enter a string : "<<endl;
     getline(cin , s);
-    ans = reverseWords(s);
+    ans = reverseWords(s);  
     // ans += s;
     cout<<ans;
     return 0;
