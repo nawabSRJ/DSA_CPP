@@ -22,7 +22,7 @@ int main()
   for(auto i : s){
     cout<<i<<endl;
   }cout<<"\n";
-    cout <<"Size of set = "<<s.size()<<endl;
+
   cout<<"5 is present or not? -> "<<s.count(5)<<endl;
 
   // using find function to get a reference of a value present in set
