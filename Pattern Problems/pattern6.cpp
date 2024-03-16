@@ -24,4 +24,21 @@ int main()
         cout<<"\n";
         
     }
+
+    // int i = 1;
+    // while(num != 11)
+    // {
+        
+    //     int j = 1;
+    //     while(j<=i && num != 11)
+    //     {
+    //         cout<<" "<<num;
+    //         num++;
+    //         j++;
+    //     }
+    //     cout<<"\n";
+    //     i++;
+    // }
+
+     
 }

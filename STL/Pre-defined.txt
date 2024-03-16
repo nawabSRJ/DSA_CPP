@@ -1,0 +1,7 @@
+A file with all the pre-defined functions of STL
+
+vector:
+
+sort(arr.begin() , arr.end())   -> (start_iterator , end_iterator)  ; cannot be stored ~ no variable assigned 
+
+int sum = accumulate(arr.begin() , arr.end() , 0)  -> (start_iterator , end_iterator , initial value of the sum)

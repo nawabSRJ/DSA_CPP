@@ -1,0 +1,19 @@
+Hi , 
+my name is Srajan Saxena
+I am a student of BCA - 4.Now , i am using the append function to append data to file
+and i just wanted to check if i can write an emoji to it
+let's check
+0xF0 0x9F 0x98 0x8A
+U+1F60A
+??
+u'0xF0 0x9F 0x98 0x8A'
+u8"\U0001F600" 
+u8"\U0001F601"
+u8"\U0001F602"
+u8"\U0001F603"
+:+1
+after this
+once again
+once again
+ŽNGSFIBBLA
+Bl†haj
