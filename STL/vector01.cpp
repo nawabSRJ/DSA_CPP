@@ -44,8 +44,9 @@ int main()
   nums1.push_back(69);
   // to copy the content of one vector to another
   //vector<int> last(vec);
-  //nums1(vec); ~ not working
-  nums1 = vec;
+  //! nums1(vec); ~ not working
+  
+  nums1 = vec;  // * Correct Way
   cout<<"\nElements of nums1 : "<<endl;
   for(int i : nums1){
     cout<<i<<" ";

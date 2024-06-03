@@ -13,7 +13,8 @@ int main()
   m[1] = "Srajan";
   m[3] = "Shivam";
   m[2] = "Stuti";
-
+  cout << "count check : " <<m.count(12269) <<endl;
+  cout <<"First Print check : " << m[2] <<endl;
   m.insert({5,"Aaditya"});  
   m.insert({4,"Annu"});
   for(auto i : m){
