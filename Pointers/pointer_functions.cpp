@@ -9,10 +9,10 @@ void show(int *p)
 }
 void update(int *p)
 {
-    //p += 1;   // this won't change the original main func pointer address
+    // p += 1;   // this won't change the original main func pointer address
     // * Note : to change the value ~ use dereference operator(*)
     *p = *p + 2;
-    cout << "Inside " << *p << endl;
+    cout << "Inside : " << *p << endl;
 }
 
 int getSum(int arr[] , int n)
@@ -55,22 +55,22 @@ int main()
     int value = 7;
     //cout << &value <<endl;
     int *ptr = &value;
-    //cout << "Before : " << ptr <<endl;
-    //update(ptr);
-    //cout << "After : " << ptr <<endl;
-    //cout << "Value after updation : " << *ptr << endl;
-    //show(ptr);  // don't use asterick (de-reference operator) while passing in function call
-
+    cout << "Before : " << ptr <<endl;
+    update(ptr);
+    cout << "After : " << ptr <<endl;
+    cout << "Value after updation : " << *ptr << endl;
+    show(ptr);  // don't use asterick (de-reference operator) while passing in function call
+    // cout<<value;  // 9
     int arr[5] = {1,2,3,4,5};
     // cout << "Sum of all elements is : " << getSum(arr  , 5) <<endl;
     // cout << "Sum of last 3 elements is : " << getSum(arr + 2 , 5-2) <<endl;
 
-    cout <<"Prefix Sum array of arr is : "<<endl;
-    int* prefix = prefixSum(arr , 5);
-    for(int i = 0 ; i < 5 ; i++)
-    {
-        cout << prefix[i] << " ";
-    }cout<<endl;
+    // cout <<"Prefix Sum array of arr is : "<<endl;
+    // int* prefix = prefixSum(arr , 5);
+    // for(int i = 0 ; i < 5 ; i++)
+    // {
+    //     cout << prefix[i] << " ";
+    // }cout<<endl;
 
     
 

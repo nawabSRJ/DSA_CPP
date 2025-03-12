@@ -17,8 +17,6 @@ int SumUp(int num)
     return sum;
 }
 
-
-
 int main()
 {
     int x = SumUp(38);

@@ -1,4 +1,4 @@
-// todo - Find the smallest subarray with sum greater than a given value 
+// todo - Find the smallest subarray with sum greater than a given value
 // ? source - https://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/
 #include<iostream>
 #include<vector>

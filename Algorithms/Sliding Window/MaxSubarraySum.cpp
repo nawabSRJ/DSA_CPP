@@ -1,4 +1,5 @@
 // todo - to calculate the maximum sum of ‘k’ consecutive elements in the array.
+// * Fixed Size Window 
 #include<iostream>
 using namespace std;
 
